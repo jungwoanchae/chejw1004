@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<!--표-->
+<table border="1" width="100%" summary="3강의실 스마트웹앱 반입니다.">
+<caption>시간표</caption>
+<br />
+  <!--표간격 width를 준것으 고정값이고 없는건 사이트크기를 늘고 줄일때 변경됨-->
+  <colgroup>
+  <col width="0"/>
+  <col width="0"/>
+  <col />
+  <col />
+  <col />
+
+</colgroup>
+
+<!--정산할게 있을때(합계)  -->
+  <tfoot>
+    <tr>
+        <td>합계</td>
+        <td>합계</td>
+        <td>합계</td>
+        <td>합계</td>
+        <td>합계</td>
+
+  </tr></tfoot>
+
+  <!--테이블 머리말  -->
+  <thead>
+    <tr>
+       <th>월</th>
+       <th>화</th>
+       <th>수</th>
+       <th>목</th>
+       <th>금</th>
+</tr>
+  </thead>
+
+  <!--테이블 information-->
+  <tbody>
+<tr>
+      <td colspan="2">기획</td>
+      <td>기획</td>
+      <td>기획</td>
+      <td>기획</td>
+</tr>
+<tr>
+    <td rowspan="2">코워딩</td>
+    <td>코워딩</td>
+    <td>코워딩</td>
+    <td>코워딩</td>
+    <td>코워딩</td>
+
+</tr>
+<tr>
+    <td>태그</td>
+    <td>태그</td>
+    <td>태그</td>
+    <td>태그</td>
+
+</tr>   </tbody>
+
+</body>
+</html>
+
+
+table>caption+(colgroup>col[width=""]*4)+(thead>tr>th{text}*4)+(tbody>tr*5>td{text}*4) = tab 눌러주기
+
+<table>
+  <caption></caption>
+  <colgroup>
+    <col width="">
+    <col width="">
+    <col width="">
+    <col width="">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>text</th>
+      <th>text</th>
+      <th>text</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+      <td>text</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+</body>
+</html>
